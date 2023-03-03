@@ -18,6 +18,8 @@ jobs:
         exclude:
           - os: macos-latest
             node-version: 12.x
+          - os: ubuntu-latest
+            node-version: 14.x
 
     steps:
     - uses: actions/checkout@v2
